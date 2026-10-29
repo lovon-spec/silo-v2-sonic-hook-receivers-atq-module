@@ -1,0 +1,15 @@
+{
+  "name": "silo-v2-sonic-hook-receivers-atq-module",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "main.mjs",
+  "license": "MIT",
+  "dependencies": {
+    "atq-types": "^1.1.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --experimental-vm-modules --test tests/transport.test.mjs"
+  }
+}
